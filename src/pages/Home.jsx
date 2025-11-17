@@ -42,12 +42,12 @@ function Home() {
       <div className="flex justify-center items-center min-h-screen p-6">
         <div className="max-w-md w-full">
           {/* Glassmorphic Card */}
-          <div className="relative bg-gray-900/40 backdrop-blur-xl border border-white/10 rounded-3xl shadow-2xl shadow-blue-500/10 p-12">
+          <div className="relative bg-gray-900/40 backdrop-blur-xl border border-white/10 rounded-3xl shadow-2xl shadow-blue-500/10 p-12 mt-24">
             {/* Gradient Overlay */}
             <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-purple-500/10 to-transparent rounded-3xl"></div>
             
             {/* Content */}
-            <div className="relative text-center space-y-6">
+            <div className="relative text-center space-y-6 ">
               {/* Animated Icon */}
               <div className="flex justify-center">
                 <div className="relative">
@@ -55,7 +55,7 @@ function Home() {
                   <div className="absolute inset-0 bg-blue-500 blur-3xl opacity-20 animate-pulse"></div>
                   
                   {/* Icon Container */}
-                  <div className="relative bg-gradient-to-br from-blue-500/20 to-cyan-500/20 p-6 rounded-2xl border border-blue-500/30">
+                  <div className="relative bg-gradient-to-br from-blue-500/20 to-cyan-500/20 p-6 rounded-2xl border border-blue-500/30 ">
                     <BookOpen className="w-16 h-16 text-blue-400" strokeWidth={1.5} />
                   </div>
                 </div>
