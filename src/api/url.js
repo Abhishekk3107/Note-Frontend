@@ -1,7 +1,10 @@
 import axios from "axios"
+import dotenv from "dotenv"
+
+dotenv.config()
 
 const BACKEND_URL = axios.create({
-    baseURL: "https://note-backend-fy6v.onrender.com/api/v1/noteapp/"
+    baseURL: process.env.REACT_APP_API_URL
 })
 
 export default BACKEND_URL
