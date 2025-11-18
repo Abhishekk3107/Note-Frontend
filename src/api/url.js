@@ -1,10 +1,8 @@
 import axios from "axios"
-import dotenv from "dotenv"
 
-dotenv.config()
 
 const BACKEND_URL = axios.create({
-    baseURL: process.env.REACT_APP_API_URL
+    baseURL: import.meta.env.VITE_BACKEND_URL || 'http://localhost:4002/api/v1/noteapp'
 })
 
 export default BACKEND_URL
